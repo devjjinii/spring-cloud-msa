@@ -9,8 +9,8 @@ eureka:
   instance:
     instance-id: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}}
   client:
-    register-with-eureka: true
-    fetch-registry: true
+    register-with-eureka: true # eureka의 registry에 등록할지 여부
+    fetch-registry: true # registry에 있는 정보를 가져올지 여부
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
 
