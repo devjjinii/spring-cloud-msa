@@ -16,6 +16,9 @@
   * .yml > port: 0 으로 설정
 
 ---
+* spring boot 2.3 까지는 spring-cloud-starter-netflix-zuul 을 통해 zuul 지원
+  * 2.4 부터는 spring-cloud-starter-gateway 
+---
 * 인강
   * https://www.inflearn.com/course/스프링-클라우드-마이크로서비스
 * 참고
