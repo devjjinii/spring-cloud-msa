@@ -17,7 +17,9 @@
 
 ---
 * spring boot 2.3 까지는 spring-cloud-starter-netflix-zuul 을 통해 zuul 지원
-  * 2.4 부터는 spring-cloud-starter-gateway 
+  * 2.4 부터는 spring-cloud-starter-gateway 를 사용
+  * 우선은 2.4.x 버전으로 프로젝트 생성 후, `pom.xml` 에서 boot의 버전을 2.3.11 로 변경 후 dependency 추가
+  * mvn clean compile package   
 ---
 * 인강
   * https://www.inflearn.com/course/스프링-클라우드-마이크로서비스
