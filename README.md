@@ -2,7 +2,7 @@
 
 * discoveryservice => @EnableEurekaServer
 * user-service => @EnableDiscoveryClient
-
+* zuul-service => @EnableZuulProxy
 ---
 ##### 여러개의 인스턴스 실행
 * <img width="600" src="https://user-images.githubusercontent.com/53853730/136024443-62772958-6e09-426b-b81c-463d1693d751.png">
