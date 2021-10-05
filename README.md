@@ -14,3 +14,9 @@
 ---
 * 랜덤포트 사용시
   * .yml > port: 0 으로 설정
+
+---
+* 인강
+  * https://www.inflearn.com/course/스프링-클라우드-마이크로서비스
+* 참고
+  * https://bcho.tistory.com/1252
