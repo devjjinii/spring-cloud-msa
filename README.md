@@ -6,8 +6,9 @@
 * user-service => @EnableDiscoveryClient
 * zuul-service => @EnableZuulProxy
 ---
-* GateWay Client > GateWay Handler > Global Filter > CustomFilter > Logging Filter > Proxied Service
+* GateWay Client > GateWay Handler > Global Filter > Custom Filter > Logging Filter > Proxied Service
   * 순차실행, 역순종료
+  * Ordered.HIGHEST_PRECEDENCE 로 순서정렬 가능
 
 ---
 ##### 여러개의 인스턴스 실행
