@@ -1,5 +1,7 @@
 # SPRING CLOUD MSA
-
+:star: <b>인강</b> :star:
+  * https://www.inflearn.com/course/스프링-클라우드-마이크로서비스
+---
 * discoveryservice => @EnableEurekaServer
 * user-service => @EnableDiscoveryClient
 * zuul-service => @EnableZuulProxy
@@ -23,8 +25,3 @@
 ---
 * spring cloud zuul -> 동기방식 : tomcat 서버구동
 * spring cloud gateway -> 비동기방식 : netty 서버구동
----
-* 인강
-  * https://www.inflearn.com/course/스프링-클라우드-마이크로서비스
-* 참고
-  * https://bcho.tistory.com/1252
