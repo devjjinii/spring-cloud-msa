@@ -28,13 +28,13 @@ public class LoggingFilter extends AbstractGatewayFilterFactory<LoggingFilter.Co
 
             log.info("Global Filter baseMessage :{}", config.getBaseMessage());
 
-            if(config.isPostLogger()) {
+            if (config.isPostLogger()) {
                 log.info("Logging Pre Filter: request id -> {}", request.getId());
             }
 
             // post filter
             return chain.filter(exchange).then(Mono.fromRunnable(() -> {
-                if(config.isPostLogger()) {
+                if (config.isPostLogger()) {
                     log.info("Logging Post Filter: response code -> {}", response.getStatusCode());
                 }
             }));
